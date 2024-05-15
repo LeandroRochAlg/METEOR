@@ -1,6 +1,5 @@
 from PIL import Image
 import numpy as np
-import sys
 
 # Carregar a imagem do arquivo
 imagem = Image.open("meteor_challenge_01.png")
@@ -34,4 +33,3 @@ for i in range(len(pixels)):
 print(f"Meteoros: {meteoros}")
 print(f"Estrelas: {estrelas}")
 print(f"Metoro cai na água: {agua}")
-sys.exit()
