@@ -21,7 +21,7 @@ for i in range(len(pixels)):
 
             # Verificar se o meteoro vai cair na água
             for k in range(len(pixels[i]) - 150, 0, -1):  # Percorrer a coluna de baixo para cima para otimizar
-                if pixels[k][j][2] == 255 and pixels[k][j][0] == 0 and pixels[k][j][1] == 0:
+                if pixels[k][j][0] == 0 and pixels[k][j][1] == 0 and pixels[k][j][2] == 255:
                     agua += 1
                     break
                 elif pixels[k][j][0] > 0:
