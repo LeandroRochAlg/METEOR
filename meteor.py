@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 # Carregar a imagem do arquivo
-imagem = Image.open("meteor_challenge_01.png")
+imagem = Image.open("img/meteor_challenge_01.png")
 
 # Converter a imagem para um array de pixels
 pixels = np.array(imagem)
